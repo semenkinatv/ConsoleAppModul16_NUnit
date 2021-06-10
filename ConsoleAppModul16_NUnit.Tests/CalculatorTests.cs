@@ -40,6 +40,5 @@ namespace ConsoleAppModul16_NUnit.Tests
             Calculator calculator = new Calculator();
             Assert.Throws<DivideByZeroException>(() => calculator.Division(30, 0));
         }
-       
     }
 }
